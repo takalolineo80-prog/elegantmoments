@@ -197,9 +197,13 @@
 
     <div class="video-box card">
         <h3>Watch Our Product In Action</h3>
-        <video controls>
-            <source src="f.mp4">
+        
+        <!-- ✅ FIXED VIDEO -->
+        <video controls playsinline preload="metadata">
+            <source src="f.mp4" type="video/mp4">
+            Your browser does not support the video tag.
         </video>
+
     </div>
 
     <div class="right-section">
