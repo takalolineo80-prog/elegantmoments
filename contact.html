@@ -112,6 +112,25 @@
             box-shadow: 0 0 8px rgba(179, 0, 89, 0.3);
         }
 
+        /* Submit button */
+        .submit-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 12px 25px;
+            background-color: #b30059;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: white;
+            color: #b30059;
+            border: 2px solid #b30059;
+        }
+
         footer {
             text-align: center;
             background: #b30059;
@@ -141,7 +160,7 @@
 
 <h1>Contact</h1>
 
-<p>Elagant Moments Gifts values communication and welcome all inquiries from customers and potental investors</p>
+<p>Elagant Moments Gifts values communication and welcome all inquiries from customers</p>
 
 <table border="1" align="center" width="1000">
     <caption><h2>Contact Details</h2></caption>
@@ -168,13 +187,14 @@
     </tr>
     <tr>
         <td align="center">@ElagantMoments</td>
-        <td align="center">Elagant Moments Gift</td>
+        <td align="center">Elagant Moments Gifts</td>
         <td align="center">+266 5603 1301</td>
     </tr>
 </table>
 
 <h3>Booking Form</h3>
 
+<form>
 <label for="name">Full Name</label>
 <input type="text" id="name" placeholder="Your Full Name" required/>
 
@@ -200,6 +220,9 @@
     <option>15:00</option>
     <option>16:00</option>
 </select>
+
+<button type="submit" class="submit-btn">Submit</button>
+</form>
 
 <footer>
     <p>&copy; 2026 Elegant Moments Gifts</p>
